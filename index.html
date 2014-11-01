@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>seaify's blog</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+    <meta charset="utf-8">
+    <title>seaify's blog</title>
+    <meta name="description" content="">
+    <meta name="author" content="seaify">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="/theme/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/theme/bootstrap.min.css" rel="stylesheet">
+    <link href="/theme/bootstrap.min.responsive.css" rel="stylesheet">
+    <link href="/theme/local.css" rel="stylesheet">
+    <link href="/theme/pygments.css" rel="stylesheet">
+
+    <!-- So Firefox can bookmark->"abo this site" -->
+
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">seaify's blog </a></h1>
-                <nav><ul>
-                    <li><a href="/category/gong-ju-tui-jian.html">工具推荐</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<body>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/shadowsocks-with-supervisor.html">shadowsocks with supervisor</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2014-11-01T00:00:00">
-                Published: 六 01 十一月 2014
-        </abbr>
+<div class="navbar">
+    <div class="navbar-inner">
+    <div class="container">
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/seaify.html">seaify</a>
-        </address>
-<p>In <a href="/category/gong-ju-tui-jian.html">工具推荐</a>. </p>
+         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+         </a>
 
-</footer><!-- /.post-info --><h1>shadowsocks  以及  Supervisor</h1>
+        <a class="brand" href="">seaify's blog</a>
+
+        <div class="nav-collapse">
+        <ul class="nav">
+            
+        </ul>
+        </div>
+        
+    </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content">
+    <div class="row">
+
+        <div class="span9">
+        
+
+        
+
+
+    <div class='article'>
+        <div class="content-title">
+            <a href="/shadowsocks-with-supervisor.html"><h1>shadowsocks with supervisor</h1></a>
+六 01 十一月 2014
+
+by <a class="url fn" href="/author/seaify.html">seaify</a>
+ 
+
+
+ 
+        </div>
+        
+        <div><h1>shadowsocks  以及  Supervisor</h1>
 <div class="highlight"><pre><span class="err">翻墙除了赫赫有名的</span><span class="n">goagent</span><span class="p">,</span>  <span class="err">以及专业的</span><span class="n">vpn</span><span class="err">外</span><span class="p">,</span>  <span class="err">还有</span><span class="n">shadowsocks</span><span class="err">这种解决方案</span><span class="p">.</span>  <span class="n">shadowsocks</span><span class="err">比</span><span class="n">goagent</span><span class="err">稳定</span><span class="p">(</span><span class="err">没办法</span><span class="n">goagent</span><span class="err">目标太大了</span><span class="p">),</span>  <span class="err">比</span><span class="n">vpn</span><span class="err">便宜</span><span class="p">,</span>  <span class="err">只需要你有一台没被墙的主机就行</span><span class="p">,</span> <span class="err">作为</span><span class="n">server</span><span class="err">端</span><span class="p">.</span> <span class="err">它的优点有部署很简单</span><span class="p">,</span> <span class="err">支持各种平台</span><span class="p">,</span> <span class="n">windows</span><span class="p">,</span>  <span class="n">mac</span> <span class="n">osx</span><span class="p">,</span> <span class="n">linux</span> <span class="p">,</span> <span class="n">android</span><span class="p">,</span> <span class="n">ios</span><span class="err">试过都可行</span><span class="p">.</span> <span class="err">自己搭建的代理</span><span class="p">,</span> <span class="err">当然就不会像</span><span class="mi">75</span><span class="n">vpn</span><span class="err">这种</span><span class="p">,</span> <span class="err">只允许一个设备连接到代理机器上</span><span class="p">,</span> <span class="err">多蛋疼</span><span class="p">.</span>
 </pre></div>
 
@@ -50,38 +87,90 @@
 <p>[program:dropbox]
 command=/home/chuck/.dropbox-dist/dropboxd
 autorestart=true
-user=chuck</p>                </article>
-<p class="paginator">
-    Page 1 / 1
-</p>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
+user=chuck</p></div>
+        <hr />
+    </div>
+		
+<div class="pagination">
+<ul>
+    <li class="prev disabled"><a href="#">&larr; Previous</a></li>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+    <li class="active"><a href="/index.html">1</a></li>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+    <li class="next disabled"><a href="#">&rarr; Next</a></li>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+</ul>
+</div>
+ 
+  
+        </div>
+        
+        <div class="span3">
 
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header"> 
+                Site
+                </li>
+            
+                <li><a href="/">Archives</a>
+                <li><a href="/tags.html">Tags</a>
+
+
+
+
+            </ul>
+            </div>
+
+
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header"> 
+                Categories
+                </li>
+                
+                <li><a href="/category/gong-ju-tui-jian.html">工具推荐</a></li>
+                   
+            </ul>
+            </div>
+
+
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header"> 
+                Links
+                </li>
+            
+                <li><a href="http://getpelican.com/">Pelican</a></li>
+                <li><a href="http://python.org/">Python.org</a></li>
+                <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+            </ul>
+            </div>
+
+
+            <div class="social">
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header"> 
+                Social
+                </li>
+           
+                <li><a href="#">You can add links in your config file</a></li>
+                <li><a href="#">Another social link</a></li>
+            </ul>
+            </div>
+            </div>
+
+        </div>  
+    </div>     </div> 
+<footer>
+<br />
+<p><a href="">seaify's blog</a> &copy; seaify 2012</p>
+</footer>
+
+</div> <!-- /container -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
+ 
 </body>
 </html>
