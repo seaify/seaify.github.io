@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>seaify's blog</title>
+        <title>shadowsocks with supervisor</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 
         <!--[if IE]>
@@ -14,13 +14,18 @@
         <header id="banner" class="body">
                 <h1><a href="/">seaify's blog </a></h1>
                 <nav><ul>
-                    <li><a href="/category/gong-ju-tui-jian.html">工具推荐</a></li>
+                    <li class="active"><a href="/category/gong-ju-tui-jian.html">工具推荐</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/shadowsocks-with-supervisor.html" rel="bookmark"
+           title="Permalink to shadowsocks with supervisor">shadowsocks with supervisor</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/shadowsocks-with-supervisor.html">shadowsocks with supervisor</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2014-11-01T00:00:00">
                 Published: 六 01 十一月 2014
@@ -31,7 +36,7 @@
         </address>
 <p>In <a href="/category/gong-ju-tui-jian.html">工具推荐</a>. </p>
 
-</footer><!-- /.post-info --><h1>shadowsocks  以及  Supervisor</h1>
+</footer><!-- /.post-info -->      <h1>shadowsocks  以及  Supervisor</h1>
 <div class="highlight"><pre><span class="err">翻墙除了赫赫有名的</span><span class="n">goagent</span><span class="p">,</span>  <span class="err">以及专业的</span><span class="n">vpn</span><span class="err">外</span><span class="p">,</span>  <span class="err">还有</span><span class="n">shadowsocks</span><span class="err">这种解决方案</span><span class="p">.</span>  <span class="n">shadowsocks</span><span class="err">比</span><span class="n">goagent</span><span class="err">稳定</span><span class="p">(</span><span class="err">没办法</span><span class="n">goagent</span><span class="err">目标太大了</span><span class="p">),</span>  <span class="err">比</span><span class="n">vpn</span><span class="err">便宜</span><span class="p">,</span>  <span class="err">只需要你有一台没被墙的主机就行</span><span class="p">,</span> <span class="err">作为</span><span class="n">server</span><span class="err">端</span><span class="p">.</span> <span class="err">它的优点有部署很简单</span><span class="p">,</span> <span class="err">支持各种平台</span><span class="p">,</span> <span class="n">windows</span><span class="p">,</span>  <span class="n">mac</span> <span class="n">osx</span><span class="p">,</span> <span class="n">linux</span> <span class="p">,</span> <span class="n">android</span><span class="p">,</span> <span class="n">ios</span><span class="err">试过都可行</span><span class="p">.</span> <span class="err">自己搭建的代理</span><span class="p">,</span> <span class="err">当然就不会像</span><span class="mi">75</span><span class="n">vpn</span><span class="err">这种</span><span class="p">,</span> <span class="err">只允许一个设备连接到代理机器上</span><span class="p">,</span> <span class="err">多蛋疼</span><span class="p">.</span>
 </pre></div>
 
@@ -50,11 +55,11 @@
 <p>[program:dropbox]
 command=/home/chuck/.dropbox-dist/dropboxd
 autorestart=true
-user=chuck</p>                </article>
-<p class="paginator">
-    Page 1 / 1
-</p>
-            </aside><!-- /#featured -->
+user=chuck</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
