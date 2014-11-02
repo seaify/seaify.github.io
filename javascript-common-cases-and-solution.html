@@ -51,11 +51,45 @@
     <div class="row">
 
         <div class="span9">
-<ul>
-	<li><a href="/category/gong-ju-tui-jian.html">工具推荐</li>
-	<li><a href="/category/javascript.html">Javascript</li>
-</ul>
+    <div class='article'>
+        <div class="content-title">
+            <h1>javascript common cases and solution</h1>
+日 02 十一月 2014
 
+by <a class="url fn" href="/author/seaify.html">seaify</a>
+ 
+
+
+        </div>
+	
+        <div><h2>About</h2>
+<p>javascript语言, 代码上比python要麻烦许多, underscore, lodash这些库减少了不少痛苦.</p>
+<h2>问题1: 两个array, json合并(数据合并, 如data = merge(req.query, req.body))</h2>
+<h2>问题2: 取出数组中第一个不是undefine的元素(比如取ip地址, 举例req.body &gt; req.header['real_ip'])</h2>
+<h2>问题3: 过滤数组, json中,所有value为空的元素(url加解密时会用到, 要去除值为空的键值对如快钱)</h2>
+<h2>问题4: 给定json, 一个list, 判断是否list中的元素是否在json中都有对应的key, 且value不是空.(服务器端收到请求后,对参数进行校验, 某些域一定要有值)</h2>
+<h2>问题5: 给定json, 按照value, 或者key排序(支付宝消息签名需要这么搞), 并且拼接成url param</h2>
+<h2>问题6: 给定值, 判定是否在一个数组中</h2>
+<h2>问题7: 本周二12:00时间的设置</h2>
+<blockquote>
+<p>momentjs</p>
+</blockquote>
+<h2>问题8: 判断一个数组是否是另一个数组的子集合(检查参数是否齐全)</h2>
+<blockquote>
+<p>_.intersection</p>
+</blockquote>
+<h2>问题9: 对数组中的每个元素, 进行运算, 比如乘以2</h2>
+<blockquote>
+<p>_.map</p>
+</blockquote>
+<h2>问题10: 判定对象中是否有a属性, 并判断该属性值是否为123</h2>
+<blockquote>
+<p>use brototype</p>
+</blockquote></div>
+	
+        <hr>
+
+    </div>
         </div>
         
         <div class="span3">
