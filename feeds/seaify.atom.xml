@@ -22,7 +22,7 @@
 &lt;h2&gt;问题10: 判定对象中是否有a属性, 并判断该属性值是否为123&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;use brototype&lt;/p&gt;
-&lt;/blockquote&gt;</summary></entry><entry><title>shadowsocks with supervisor</title><link href="/shadowsocks-with-supervisor.html" rel="alternate"></link><updated>2014-11-01T00:00:00+01:00</updated><author><name>seaify</name></author><id>tag:,2014-11-01:shadowsocks-with-supervisor.html</id><summary type="html">&lt;h1&gt;shadowsocks  以及  Supervisor&lt;/h1&gt;
+&lt;/blockquote&gt;</summary><category term="javascript"></category></entry><entry><title>shadowsocks with supervisor</title><link href="/shadowsocks-with-supervisor.html" rel="alternate"></link><updated>2014-11-01T00:00:00+01:00</updated><author><name>seaify</name></author><id>tag:,2014-11-01:shadowsocks-with-supervisor.html</id><summary type="html">&lt;h1&gt;shadowsocks  以及  Supervisor&lt;/h1&gt;
 &lt;p&gt;翻墙除了赫赫有名的goagent, 以及专业的vpn外, 还有shadowsocks这种解决方案.  shadowsocks比goagent稳定(没办法goagent目标太大了), 比vpn便宜, 只需要你有一台没被墙的主机就行, 作为server端.&lt;/p&gt;
 &lt;p&gt;它的优点有部署很简单, 支持各种平台, windows,  mac osx, linux , android, ios试过都可行. 自己搭建的代理, 当然就不会像75vpn这种, 只允许一个设备连接到代理机器上, 多蛋疼.&lt;/p&gt;
 &lt;h2&gt;安装&lt;/h2&gt;
@@ -35,4 +35,4 @@
 command=/home/chuck/.dropbox-dist/dropboxd&lt;br /&gt;
 autorestart=true&lt;br /&gt;
 user=chuck&lt;/p&gt;
-&lt;/blockquote&gt;</summary></entry></feed>
+&lt;/blockquote&gt;</summary><category term="javascript"></category><category term="shadowsocks"></category><category term="supervisor"></category><category term="proxy"></category><category term="vpn"></category><category term="goagent"></category><category term="代理"></category><category term="翻墙"></category></entry></feed>
