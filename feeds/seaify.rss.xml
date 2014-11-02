@@ -7,8 +7,9 @@
 &lt;p&gt;当你在远程主机上搭建好server端后, 接着就是在你的各个终端上安装client, 开始翻墙, 各终端的client端下载地址,  &lt;a href="http://shadowsocks.org/en/download/clients.html"&gt;supervisor client&lt;/a&gt;.
 值得一提的是, &lt;a href="https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor"&gt;supervisor&lt;/a&gt;  中, 提供了后台运行shadowsocks的方法, 使用的是Supervisor.
 在我的ubuntu下, 我的dropbox也需要后台运行, 也同样使用到了, 见配置文件:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;program:dropbox&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="err"&gt;command=/home/chuck/.dropbox-dist/dropboxd&lt;/span&gt;
-&lt;span class="err"&gt;autorestart=&lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;
-&lt;span class="err"&gt;user=chuck&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">seaify</dc:creator><pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate><guid>tag:,2014-11-01:shadowsocks-with-supervisor.html</guid></item></channel></rss>
+&lt;blockquote&gt;
+&lt;p&gt;[program:dropbox]&lt;br /&gt;
+command=/home/chuck/.dropbox-dist/dropboxd&lt;br /&gt;
+autorestart=true&lt;br /&gt;
+user=chuck&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">seaify</dc:creator><pubDate>Sat, 01 Nov 2014 00:00:00 +0100</pubDate><guid>tag:,2014-11-01:shadowsocks-with-supervisor.html</guid></item></channel></rss>

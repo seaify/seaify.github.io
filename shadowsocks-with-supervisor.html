@@ -70,11 +70,12 @@ by <a class="url fn" href="/author/seaify.html">seaify</a>
 <p>当你在远程主机上搭建好server端后, 接着就是在你的各个终端上安装client, 开始翻墙, 各终端的client端下载地址,  <a href="http://shadowsocks.org/en/download/clients.html">supervisor client</a>.
 值得一提的是, <a href="https://github.com/clowwindy/shadowsocks/wiki/Configure-Shadowsocks-with-Supervisor">supervisor</a>  中, 提供了后台运行shadowsocks的方法, 使用的是Supervisor.
 在我的ubuntu下, 我的dropbox也需要后台运行, 也同样使用到了, 见配置文件:</p>
-<div class="highlight"><pre><span class="p">[</span><span class="err">program:dropbox</span><span class="p">]</span>
-<span class="err">command=/home/chuck/.dropbox-dist/dropboxd</span>
-<span class="err">autorestart=</span><span class="kc">true</span>
-<span class="err">user=chuck</span>
-</pre></div></div>
+<blockquote>
+<p>[program:dropbox]<br />
+command=/home/chuck/.dropbox-dist/dropboxd<br />
+autorestart=true<br />
+user=chuck</p>
+</blockquote></div>
 	
         <hr>
 
